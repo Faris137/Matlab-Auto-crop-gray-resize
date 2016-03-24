@@ -1,7 +1,7 @@
 % specifing the filename and filename extension
 contents = dir('*.jpg');
 %specifying the distination file
-dist ='C:\Users\Fares\Desktop\Musical Instrument recognition system\pics\testing\testdata\gray test';
+dist ='copy-paste your destination path here';
 a = 1;
 for i = 1:numel(contents)
   filename = contents(i).name;
